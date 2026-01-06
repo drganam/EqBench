@@ -3,7 +3,7 @@ int foo(int a, int b) {
 	  return 1;
 	return 0;
 }
-int main(void) {
+int client() {
 	int x=2;
 	int y=3;
 	int z=foo(x,y);

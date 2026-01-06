@@ -4,7 +4,7 @@ int lib(int x) {
 		x = x/2;
 		counter++;
 	}
-	return counter+1;//change
+	return counter+1;
 }
 int client(int x){
 	if (lib(x)==0){

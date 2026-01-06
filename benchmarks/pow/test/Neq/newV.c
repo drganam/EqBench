@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <math.h>
-#include <stdbool.h>
 int snippet(int x, int y) {
         int result = 0; 
         int path = 0;
@@ -15,7 +12,7 @@ int snippet(int x, int y) {
                 if (path == 1)
                     result = 3;
                 if (path == 2)
-                    result = 13+5;//change
+                    result = 13+5;
             }
             else {
                 if (path == 1)
@@ -24,6 +21,6 @@ int snippet(int x, int y) {
                     result = 14;
             }
         }
-        result = result + 10;//change
+        result = result + 10;
         return result;
     }

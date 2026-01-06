@@ -3,6 +3,6 @@ int foo(int a, int b) {
 	int c=b+a;
 	return c+d;
 }
-int main(void) {
+int client() {
 	return foo(5,900);
 }

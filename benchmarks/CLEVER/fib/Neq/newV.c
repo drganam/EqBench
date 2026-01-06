@@ -9,7 +9,7 @@ int lib(int n){
     }
     return a;
 }
-int fib(int x){
+int client(int x){
     if(x<5){
         return lib(x);
     }else{

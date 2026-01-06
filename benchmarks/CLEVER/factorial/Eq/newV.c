@@ -7,7 +7,7 @@ int lib(int n){
         return n * lib(n-1);
     }
 }
-int factorial(int x){
+int client(int x){
     if(x<5){
         return lib(x);
     }else{

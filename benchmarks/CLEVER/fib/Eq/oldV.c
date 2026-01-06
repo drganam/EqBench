@@ -7,7 +7,7 @@ int lib(int n){
         return lib(n - 1) + lib(n - 2);
     }
 }
-int fib(int x){
+int client(int x){
     if(x<5){
         return lib(x);
     }else{

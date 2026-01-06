@@ -10,7 +10,7 @@ int g(int n)
   }
   return r;
 }
-int triangle(int n) {
+int f(int n) {
   int r;
   r = g(n);
   return r;

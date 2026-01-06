@@ -1,5 +1,5 @@
 int lib(int x) {
-	int counter = 1;//change
+	int counter = 1;
 	while (x < 0) {
 		x++;
 		counter++;
